@@ -1,12 +1,18 @@
 import Hero from "@/components/Hero";
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { NextUIProvider } from "@nextui-org/system";
+import NavbarComp from "@/components/NavbarComp";
 
 export default function Home() {
 
   return (
-    <main>
+    <NextUIProvider>
+      <main>
+        <NavbarComp />
         <Hero />
-    </main>
+      </main>
+    </NextUIProvider>
+    
   );
 }
