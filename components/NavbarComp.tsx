@@ -20,9 +20,9 @@ const NavbarComp = () => {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-transparent md:border-1 md:border-black md:rounded-full dark:border-white top-6 mx-auto container">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-transparent md:border-1 md:border-black md:rounded-full dark:border-white mt-6 mx-auto container">
       <NavbarContent>
-       <NavbarItem className="justify-start">
+       <NavbarItem className="justify-start z-10">
           <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">fionaharia</Link>
         </NavbarItem> 
       </NavbarContent>
@@ -48,7 +48,7 @@ const NavbarComp = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">
+          <Link className="text-black pt-1 pl-2 dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">
             <Toggle />
           </Link>
         </NavbarItem>
@@ -56,14 +56,14 @@ const NavbarComp = () => {
       <NavbarContent justify="end">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden text-black dark:text-white font-semibold"
+          className="sm:hidden mr-3 text-black dark:text-white font-semibold"
         />
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="z-20">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className="w-full text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl"
+              className="w-full mt-8 text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl"
               href="#"
               size="lg"
             >

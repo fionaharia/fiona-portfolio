@@ -4,13 +4,13 @@
 
 @layer base{
   .h1{
-    @apply transition-colors duration-200 font-extrabold text-[2.4rem] md:text-[3.8rem] 2xl:text-[4rem] tracking-wider
+    @apply font-extrabold  text-[2.2rem] md:text-[3.8rem] 2xl:text-[5rem] tracking-wider
   }
   .h2{
-    @apply font-bold text-[2rem] md:text-[2.5rem] 2xl:text-[3.5rem] tracking-wide 
+    @apply duration-200 transition-colors font-bold text-[1.5rem] md:text-[3rem] 2xl:text-[4rem] tracking-wide 
   }
   .h3{
-    @apply font-medium tracking-tighter text-[0.9rem] md:text-[1.2rem] 2xl:text-[1.5rem]
+    @apply  font-semibold tracking-tighter text-[1rem] md:text-[1.2rem] 2xl:text-[1.5rem]
   }
   .animation-delay-2000 {
       animation-delay: 2s;

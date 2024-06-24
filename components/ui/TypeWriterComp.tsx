@@ -1,11 +1,12 @@
 import React from 'react'
 import { Typewriter } from 'nextjs-simple-typewriter'
+import { words } from '@/data'
 
 const TypeWriterComp = () => {
   return (
     <div>
       <Typewriter 
-      words={['const myName = () =>','Hey there! My name is']}
+      words={words}
       loop={0}
       cursor
       typeSpeed={60}

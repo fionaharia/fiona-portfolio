@@ -1,4 +1,4 @@
 export const words = [
-  { text: "const myName = () => " },
-  { text: "Hey there! My name is," },
+  "const myName = () => ", 
+  "Hey there! My name is,",
 ];
