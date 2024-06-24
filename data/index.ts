@@ -1,7 +1,4 @@
-export const navItems = [
-  { name: "home", link: "#" },
-  { name: "about me", link: "#aboutme" },
-  { name: "projects", link: "#projects" },
-  { name: "experience", link: "#experience" },
-  { name: "contact", link: "#contact" },
+export const words = [
+  { text: "const myName = () => " },
+  { text: "Hey there! My name is," },
 ];

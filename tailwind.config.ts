@@ -10,8 +10,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+  theme:{
     extend: {
+      colors: {
+        newpink: 'rgb(255, 54, 201)',
+        navblue: 'rgb(0, 111, 238)'
+      },
       animation: {
         blob: "blob 7s infinite",
       },
@@ -33,7 +37,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: 
+    [nextui()],
   darkMode: "class",
 };
 export default config;

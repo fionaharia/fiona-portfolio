@@ -6,7 +6,7 @@ import { RiMoonLine, RiSunLine } from "react-icons/ri";
 const Toggle = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <button
+    <button className="border-1 border-black dark:border-white rounded-full p-[6px]"
       onClick={() => (theme == "dark" ? setTheme("light") : setTheme("dark"))}>
       {theme === "light" ? (
         <RiMoonLine/>

@@ -4,7 +4,7 @@
 
 @layer base{
   .h1{
-    @apply font-bold text-[2.4rem] md:text-[3.5rem] 2xl:text-[4rem] tracking-wider
+    @apply transition-colors duration-200 font-extrabold text-[2.4rem] md:text-[3.8rem] 2xl:text-[4rem] tracking-wider
   }
   .h2{
     @apply font-bold text-[2rem] md:text-[2.5rem] 2xl:text-[3.5rem] tracking-wide 
@@ -21,6 +21,15 @@
   body{
     @apply bg-gray-50 dark:bg-black;
   }
+  .h5{
+    @apply text-black dark:text-white text-sm md:text-lg 2xl:text-xl 
+  }
 }
+
+*{
+  @apply transition-colors duration-200
+}
+
+
 
 
