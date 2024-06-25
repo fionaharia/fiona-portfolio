@@ -4,7 +4,7 @@ import { languages, frame, tools, libra } from '@/data';
 const TechStack = () => {
   return (
     <div className="w-full flex flex-col items-center mx-auto container -mt-10">
-      <p className="h2">Skills</p>
+      <p className="h5">Skills</p>
       <div className="flex flex-col">
         <div className="flex flex-col text-center md:justify-start">
           <div className="flex flex-col items-center">

@@ -4,6 +4,7 @@ import NavbarComp from "@/components/NavbarComp";
 import AboutMe from "@/components/AboutMe";
 import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
+import Education from "@/components/Education";
 
 export default function Home() {
 
@@ -15,6 +16,7 @@ export default function Home() {
         <AboutMe/>
         <TechStack />
         <Projects />
+        <Education />
       </main>
     </NextUIProvider>
     

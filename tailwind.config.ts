@@ -15,6 +15,9 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      headings: ['Raleway'],
+    },
     extend: {
       colors: {
         newpink: 'rgb(255, 54, 201)',
