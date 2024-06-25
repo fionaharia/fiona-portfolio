@@ -5,7 +5,7 @@ import Button from "./ui/Button";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-screen md:w-full md:flex-row flex flex-col items-start justify-start mx-auto container">
+    <div className="h-full w-screen md:w-full md:flex-row flex flex-col items-start justify-start mx-auto container">
       <div className="flex-1 flex items-center justify-center relative z-10 pl-5 md:pl-10">
         <div className="z-20 relative">
           <div className="text-sm 2xl:text-lg mt-10 md:mt-20 text-newpink transition-colors duration-200 dark:text-navblue font-semibold md:text-xl">

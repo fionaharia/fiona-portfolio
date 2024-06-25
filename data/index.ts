@@ -70,7 +70,7 @@ export const tools = [
   },
   {
     id:2,
-    icon: '/icons/Github.svg'
+    icon: '/icons/githubn.svg'
   },
   {
     id:3,
