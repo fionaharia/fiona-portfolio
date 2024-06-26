@@ -20,7 +20,7 @@ const NavbarComp = () => {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-transparent md:border-1 md:border-black md:rounded-full dark:border-white mt-6 mx-auto container">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-transparent md:border-1 md:border-black md:rounded-full dark:border-white top-3 mx-auto container">
       <NavbarContent>
        <NavbarItem className="justify-start z-10">
           <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">fionaharia</Link>

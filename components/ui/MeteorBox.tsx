@@ -6,7 +6,7 @@ export function MeteorsDemo() {
     <div className="">
       <div className="w-full relative">
         <div className="absolute inset-0 h-full w-full  transform scale-[0.80] rounded-full blur-3xl" />
-        <div className="relative dark:bg-black bg-gray-50 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+        <div className="relative dark:bg-black bg-blue-50 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
           <h1 className="dark:text-white text-black h3 relative z-10">
             Meteors because they&apos;re cool
           </h1>
