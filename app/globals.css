@@ -28,7 +28,7 @@
       animation-delay: 4s;
     }
   body{
-    @apply bg-blue-50 dark:bg-black;
+    @apply bg-blue-50 dark:bg-bgblue
   }
 }
 

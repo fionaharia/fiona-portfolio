@@ -21,7 +21,8 @@ module.exports = {
     extend: {
       colors: {
         newpink: 'rgb(255, 54, 201)',
-        navblue: 'rgb(0, 111, 238)'
+        navblue: 'rgb(0, 111, 238)',
+        bgblue: 'rgb(10, 10, 19)',
       },
       animation: {
         blob: "blob 7s infinite",

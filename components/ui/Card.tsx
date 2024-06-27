@@ -16,7 +16,7 @@ export function ThreeDCardDemo({
   return (
     <Link href={link}>
       <CardContainer className="h-32 md:h-auto w-full px-5 md:px-0 hover:cursor cursor-pointer">
-        <CardBody className="bg-blue-50 relative group/card hover:shadow-2xl hover:cursor hover:shadow-pink-500/50 hover  dark:hover:shadow-blue-300/50 dark:bg-black rounded-xl ">
+        <CardBody className="bg-blue-50 relative group/card hover:shadow-2xl hover:cursor hover:shadow-pink-500/50 hover  dark:hover:shadow-blue-300/50 dark:bg-bgblue rounded-xl ">
           <CardItem translateZ="50" className="h4">
             {title}
           </CardItem>
