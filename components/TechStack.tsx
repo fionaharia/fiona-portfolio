@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const TechStack = () => {
   return (
-    <div className="w-full flex flex-col items-center mx-auto container -mt-44 md:-mt-10 2xl:-mt-10">
+    <div className="w-full flex overflow-hidden flex-col items-center mx-auto container -mt-44 md:-mt-10 2xl:-mt-10">
       <p className="h5">Skills</p>
       <div className="flex flex-col">
         <div className="flex flex-col text-center md:justify-start">

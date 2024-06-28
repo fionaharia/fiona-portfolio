@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div className="h-auto w-full flex flex-col items-center mx-auto container md:-mt-10 p-5">
+    <div className="h-auto overflow-hidden w-full flex flex-col items-center mx-auto container md:-mt-10 p-5">
       <p className="h5" data-aos="fade-down">Education</p>
       <div className="flex flex-col">
         <div>

@@ -6,7 +6,6 @@ import AboutMe from "@/components/AboutMe";
 import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
-import WorkTogether from "@/components/WorkTogether";
 
 export default function Home() {
 
@@ -19,7 +18,6 @@ export default function Home() {
         <TechStack />
         <Projects />
         <Education />
-        <WorkTogether />
       </main>
     </NextUIProvider>
     
