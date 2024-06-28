@@ -6,7 +6,7 @@ import Button from "./ui/Button";
 
 const Hero = () => {
   return (
-    <div className="font-headings h-auto w-full mx-auto container md:w-full md:flex-row flex flex-col items-start justify-start md:mx-auto md:container">
+    <div className="font-headings h-auto w-full mx-auto container md:w-full md:flex-row flex flex-col items-start justify-start md:mx-auto md:container px-3">
       <div className="flex-1 flex items-center justify-center relative z-10 md:pl-10">
         <div className="z-20 relative max-w-full">
           <div className="text-sm 2xl:text-lg mt-10 md:mt-20 text-newpink transition-colors duration-200 dark:text-navblue font-semibold md:text-xl">
@@ -29,7 +29,7 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="50"
           >
-          
+            A fullstack web developer dedicated to transform ideas into sleek digital experiences, crafting efficient and scalable code.
           </p>
           <div className="flex flex-row flex-wrap md:flex-nowrap items-center justify-center md:items-start md:justify-start mt-4 md:mt-0">
             <div

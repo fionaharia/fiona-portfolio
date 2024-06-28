@@ -10,7 +10,7 @@ const WorkTogether = () => {
             Together.
           </span>
         </p>
-        <p className="h3 font-normal pt-4 text-white">
+        <p className="h3 font-normal text-center pt-4 text-white">
           I&apos;m currently available for working as an intern and freelancing.
         </p>
         <p className="h3 font-normal pt-2 text-center text-white">

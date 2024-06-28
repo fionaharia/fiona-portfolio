@@ -36,7 +36,7 @@ const NavbarComp = () => {
       <NavbarContent>
         <NavbarItem className="justify-start z-10">
           <Link
-            href="#home"
+            href="#hero"
             className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl"
           >
             fionaharia
