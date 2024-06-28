@@ -29,9 +29,7 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="50"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam.
+          
           </p>
           <div className="flex flex-row flex-wrap md:flex-nowrap items-center justify-center md:items-start md:justify-start mt-4 md:mt-0">
             <div

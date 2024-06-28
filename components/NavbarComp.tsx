@@ -66,7 +66,7 @@ const NavbarComp = () => {
           className="sm:hidden mr-3 text-black dark:text-white font-semibold"
         />
       </NavbarContent>
-      <NavbarMenu className="z-20">
+      <NavbarMenu className={`bg-white dark:bg-black z-20`}>
         {menuItems.map((item) => (
           <NavbarMenuItem key={item.id}>
             <Link
