@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -20,6 +20,10 @@ const NavbarComp = () => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
+
+  useEffect(() => {
+    setDarkMode(darkMode);
+  },[])
 
   const menuItems = [
     { id: 1, label: "home", href: "#home" },
