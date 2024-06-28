@@ -37,6 +37,6 @@
   @apply transition-colors duration-200 font-headings p-0 m-0 
 }
 
-
-
-
+html {
+  scroll-behavior: smooth;
+}

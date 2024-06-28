@@ -1,10 +1,12 @@
 import React from 'react';
 import { languages, frame, tools } from '@/data';
 import Image from 'next/image';
+import HorizontalLine from './ui/HorizontalLine';
 
 const TechStack = () => {
   return (
-    <div className="w-full flex overflow-hidden flex-col items-center mx-auto container -mt-44 md:-mt-10 2xl:-mt-10">
+    <div className="w-full flex overflow-hidden flex-col items-center mx-auto container -mt-40 md:-mt-10 2xl:-mt-10">
+      <HorizontalLine />
       <p className="h5">Skills</p>
       <div className="flex flex-col">
         <div className="flex flex-col text-center md:justify-start">

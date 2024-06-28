@@ -38,10 +38,10 @@ const Hero = () => {
               className="md:pt-8 pt-6 2xl:pt-12 -ml-1"
               data-aos="zoom-out-up"
             >
-              <Button title="Connect" />
+              <Button title="Connect" href="mailto:fiona44work@gmail.com" />
             </div>
             <div className="md:pt-8 pt-6 2xl:pt-12 ml-6" data-aos="zoom-out-up">
-              <Button title="Know More" />
+              <Button title="Know More" href="#about-me" />
             </div>
           </div>
         </div>

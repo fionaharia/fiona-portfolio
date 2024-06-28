@@ -23,6 +23,7 @@ module.exports = {
         newpink: 'rgb(255, 54, 201)',
         navblue: 'rgb(0, 111, 238)',
         bgblue: 'rgb(10, 10, 19)',
+        foot: 'rgb(12, 12, 13)',
       },
       animation: {
         blob: "blob 7s infinite",

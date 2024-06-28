@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div className="p-4 m-2 md:w-1/2">
           <Mesh />
         </div>
-        <div className="h3 p-4 md:pt-20 -m-2 md:w-[40%] 2xl:pt-40">
+        <div className="h3 p-4 md:pt-0 -m-2 md:w-[40%] 2xl:pt-40">
         <MeteorsDemo />
         </div>
       </div>
