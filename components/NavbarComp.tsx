@@ -22,11 +22,11 @@ const NavbarComp = () => {
   };
 
   const menuItems = [
-    { label: "home", component: <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">home</Link> },
-    { label: "about me", component: <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">about me</Link> },
-    { label: "projects", component: <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">projects</Link> },
-    { label: "contact", component: <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">contact</Link> },
-    { label: "toggle", component: <Toggle key="toggle" /> }
+    { id: 1, label: "home", component: "home" },
+    { id: 2, label: "about me", component: "about me" },
+    { id: 3, label: "projects", component: "projects" },
+    { id: 4, label: "contact", component: "contact" },
+    { id: 5, label: "toggle", component: <Toggle /> }
   ];
 
   return (
@@ -36,20 +36,22 @@ const NavbarComp = () => {
     >
       <NavbarContent>
         <NavbarItem className="justify-start z-10">
-          <Link className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">
+          <Link href="#" className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">
             fionaharia
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {menuItems.slice(0, 4).map((item) => (
-          <NavbarItem key={item.label}>
-            {item.component}
+          <NavbarItem key={item.id}>
+            <Link href="#" className="text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">
+              {item.component}
+            </Link>
           </NavbarItem>
         ))}
-        <NavbarItem>
-          <Link className="text-black pt-1 pl-2 dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">
-            <Toggle />
+        <NavbarItem key={menuItems[4].id}>
+          <Link href="#" className="text-black pt-1 pl-2 dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl">
+            {menuItems[4].component}
           </Link>
         </NavbarItem>
       </NavbarContent>
@@ -60,11 +62,11 @@ const NavbarComp = () => {
         />
       </NavbarContent>
       <NavbarMenu className="z-20">
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item.label}-${index}`}>
+        {menuItems.map((item) => (
+          <NavbarMenuItem key={item.id}>
             <Link
-              className="w-full mt-8 text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl"
               href="#"
+              className="w-full mt-8 text-black dark:text-white font-semibold text-sm md:text-lg 2xl:text-xl"
               size="lg"
             >
               {item.component}
