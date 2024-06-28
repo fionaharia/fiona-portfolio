@@ -1,6 +1,5 @@
 import React from 'react';
-import {Mesh} from "./ui/Mesh"
-import { Meteors } from './ui/Meteor';
+import Mesh from "./ui/Mesh"
 import { MeteorsDemo } from './ui/MeteorBox';
 
 const AboutMe = () => {
