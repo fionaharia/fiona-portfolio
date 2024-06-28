@@ -1,6 +1,7 @@
 import React from "react";
 import { CardContainer, CardBody, CardItem } from "./3dCard";
 import Link from "next/link";
+import Image from "next/image";
 
 export function ThreeDCardDemo({
   title,
@@ -28,9 +29,11 @@ export function ThreeDCardDemo({
             {desc}
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
-            <img
+            <Image
               src={image}
               alt={title}
+              width={200}
+              height={240}
               className="h-40 sm:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             />
           </CardItem>
